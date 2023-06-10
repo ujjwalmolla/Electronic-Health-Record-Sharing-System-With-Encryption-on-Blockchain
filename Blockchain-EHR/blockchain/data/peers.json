@@ -1,0 +1,11 @@
+{
+    "unassigned": [],
+    "assigned": [
+        {
+            "assigned_port": 5000
+        },
+        {
+            "assigned_port": 5001
+        }
+    ]
+}

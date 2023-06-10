@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1120</width>
+    <height>850</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+background-color: rgb(238, 238, 238);
+background-color: rgb(255, 247, 239);</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>30</y>
+     <width>681</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font-size: 30px;
+font: bold;
+color: rgb(148, 55, 255);</string>
+   </property>
+   <property name="text">
+    <string>Patient Treatment History </string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>120</y>
+     <width>1300</width>
+     <height>650</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(235, 235, 235);</string>
+   </property>
+   <column>
+    <property name="text">
+     <string>Doctor</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>146</red>
+      <green>144</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Hospital</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>146</red>
+      <green>144</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Transaction Id</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>146</red>
+      <green>144</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Medicine</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>15</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>146</red>
+      <green>144</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Medical Tests</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>146</red>
+      <green>144</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Comments</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>146</red>
+      <green>144</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Created On</string>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>16</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="background">
+     <color>
+      <red>146</red>
+      <green>144</green>
+      <blue>0</blue>
+     </color>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>1030</x>
+     <y>60</y>
+     <width>100</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color:rgb(255, 38, 0);
+background-color: rgb(192, 192, 192);
+font: 700 18pt &quot;Times New Roman&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

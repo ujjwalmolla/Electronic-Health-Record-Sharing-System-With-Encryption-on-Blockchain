@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgba(118, 214, 255, 25);</string>
+  </property>
+  <widget class="QPushButton" name="hospitalbutton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>91</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(192, 192, 192);
+color: rgb(255, 47, 146);
+font: 15pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Hospital</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="doctorbutton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>170</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(192, 192, 192);
+color: rgb(255, 47, 146);
+font: 15pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Doctor</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="hospital">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>90</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color:rgb(0, 0, 0);</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="doctor">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>170</y>
+     <width>241</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
+font: 14pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="permbutton">
+   <property name="geometry">
+    <rect>
+     <x>270</x>
+     <y>240</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(192, 192, 192);
+color: rgb(255, 47, 146);
+font: 14pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Grant Permission</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>240</y>
+     <width>121</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(192, 192, 192);
+color: rgb(255, 47, 146);
+font: 15pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>17</x>
+     <y>20</y>
+     <width>371</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(148, 23, 81);
+font: 24pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Grant Permission to access record</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

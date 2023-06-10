@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>575</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="patientbutton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>181</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(214, 214, 214);
+color: rgb(148, 33, 147);
+font: 16pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Patient chain</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="doctorbutton">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>110</y>
+     <width>121</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(214, 214, 214);
+color: rgb(148, 33, 147);
+font: 16pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Doctor chain</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="patient">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>180</y>
+     <width>241</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="whatsThis">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Enter the patient id&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="recordbutton">
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>110</y>
+     <width>151</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(214, 214, 214);
+color: rgb(148, 33, 147);
+font: 16pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>New Patient Record</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="back">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>110</y>
+     <width>81</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(146, 144, 0);
+color: rgb(148, 33, 147);
+font: 16pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Back</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>411</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(79, 143, 0);
+font: 24pt &quot;.AppleSystemUIFont&quot;;</string>
+   </property>
+   <property name="text">
+    <string>        Welcome to the Doctor Portal</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
